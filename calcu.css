@@ -1,0 +1,56 @@
+.aki-calcu{
+    color: red;
+    margin-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+   
+}
+.calcu{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(41, 39, 39);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#screen{
+    width: 400px;
+    margin-left: 45px;
+    height: 60px;
+    margin-top: 40px;
+    pointer-events: none;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid rgb(20, 19, 19);
+    box-shadow: inset 5px 5px 3px rgba(5, 5, 5, .7);
+     padding-left: 15px;
+     background-color: lightgreen;
+}
+button{
+    width: 70px;
+    height: 60px;
+    margin-top: 30px;
+    background-color:yellow;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:active{
+    background-color: blue;
+}
+.row{
+    margin-left: 45px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#clearbutton{
+    margin-left: 45px;
+    margin-right: 38px;
+    background-color: red;
+    cursor: pointer;
+}
+#backspacebutton{
+    background-color: rgb(64, 191, 64);
+    cursor: pointer;
+}
